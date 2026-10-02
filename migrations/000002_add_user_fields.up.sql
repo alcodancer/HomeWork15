@@ -1,0 +1,6 @@
+ALTER TABLE users
+    ADD COLUMN phone      TEXT,
+    ADD COLUMN updated_at TIMESTAMPTZ NOT NULL DEFAULT now();
+
+ALTER TABLE orders
+    ADD COLUMN note TEXT;

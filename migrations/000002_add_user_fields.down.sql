@@ -1,0 +1,3 @@
+ALTER TABLE orders DROP COLUMN IF EXISTS note;
+ALTER TABLE users  DROP COLUMN IF EXISTS phone,
+                   DROP COLUMN IF EXISTS updated_at;
